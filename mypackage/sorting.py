@@ -22,7 +22,7 @@ def merge_sort(items):
     y = merge_sort(items[mid:])
     return linear_merge(x,y)
 
-def quick_sort(items):
+def quick_sort(items, index = 0):
     '''Return array of items, sorted in ascending order'''
     if len(items)<=1:
         return items
