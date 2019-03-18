@@ -18,8 +18,8 @@ def merge_sort(items):
     if len(items) == 1:
         return items
     mid = int(len(items)/2)
-    x = merge_sort(itmes[:mid])
-    y = merge_sort(itmes[mid:])
+    x = merge_sort(items[:mid])
+    y = merge_sort(items[mid:])
     return linear_merge(x,y)
 
 def quick_sort(items):
