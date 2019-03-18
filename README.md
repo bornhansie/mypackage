@@ -5,8 +5,8 @@ This library was created as an example of how to publish  your own Python packag
 `python setup.py sdist`
 
 ## installing this package from github
-`pip install git+https://github.com/James-Leslie/example-python-package.git`
+`pip install git+https://github.com/bornhansie/mypackage`
 
 ## updating this package from github
 
-`pip install --upgrade git+https://github.com/James-Leslie/example-python-package.git`
+`pip install --upgrade git+https://github.com/bornhansie/mypackage`
