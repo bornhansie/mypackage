@@ -1,4 +1,3 @@
- ]:
 from mypackage import top_n, recursion, sorting
 
 def test_top_n():
