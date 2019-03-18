@@ -1,14 +1,14 @@
  ]:
-from mypackage import myFunction, recursion, sorting
+from mypackage import top_n, recursion, sorting
 
 def test_top_n():
     """
     make sure top_n works correctly
     """
 
-    assert myFunction.top_n([8, 3, 2, 7, 4], 3) == [8, 7, 4], 'incorrect'
-    assert myFunction.top_n([10, 1, 12, 9, 2], 2) == [12, 10], 'incorrect'
-    assert myFunction.top_n([1, 2, 3, 4, 5], 5) == [5, 4, 3, 2, 1], 'incorrect'
+    assert top_n.top_n([8, 3, 2, 7, 4], 3) == [8, 7, 4], 'incorrect'
+    assert top_n.top_n([10, 1, 12, 9, 2], 2) == [12, 10], 'incorrect'
+    assert top_n.top_n([1, 2, 3, 4, 5], 5) == [5, 4, 3, 2, 1], 'incorrect'
 
 def test_sum_array(array):
     '''Test Sum Array: Does the function return a sum of an array'''
