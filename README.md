@@ -11,7 +11,7 @@ Recursion:
 factorial.py,
 fibonacci.py,
 sum_array.py,
-revers.py,
+reverse.py,
 
 ## Building this package locally
 `python setup.py sdist`
