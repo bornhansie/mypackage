@@ -32,7 +32,7 @@ def quick_sort(items, index = 0):
     dup = []
 
     for i in items:
-        if i<pivot:
+        if i < pivot:
             small.append(i)
         elif i > pivot:
             large.append(i)
