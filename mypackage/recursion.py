@@ -15,6 +15,6 @@ def factorial(n):
     else:
         return n*factorial(n-1)
 
-def revers(word):
+def reverse(word):
     '''return word in reverse'''
     return word[::-1]
