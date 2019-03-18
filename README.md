@@ -1,12 +1,24 @@
-# my package
-This library was created as an example of how to publish  your own Python package
+# Sorting and recursion functions
+This library contains several sorting and recursion functions:
 
-## building this package locally
+Sorting:
+-merge_sort.py
+-bubble_sort.py
+-quick_sort.py
+-linear_merge.py
+
+Recursion:
+-factorial.py
+-fibonacci.py
+-sum_array.py
+-revers.py
+
+## Building this package locally
 `python setup.py sdist`
 
-## installing this package from github
+## Installing this package from github
 `pip install git+https://github.com/bornhansie/mypackage`
 
-## updating this package from github
+## Updating this package from github
 
 `pip install --upgrade git+https://github.com/bornhansie/mypackage`
