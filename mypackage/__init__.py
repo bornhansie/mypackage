@@ -1,1 +1,1 @@
-from . import top_n
+from . import myModule
