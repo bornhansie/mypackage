@@ -17,8 +17,8 @@ This library contains several sorting and recursion functions:
 `python setup.py sdist`
 
 ## Installing this package from github
-`pip install git+https://github.com/bornhansie/mypackage`
+`pip install git+https://github.com/bornhansie/recursive-sorting-functions.git`
 
 ## Updating this package from github
 
-`pip install --upgrade git+https://github.com/bornhansie/mypackage`
+`pip install --upgrade git+https://github.com/bornhansie/recursive-sorting-functions.git`
