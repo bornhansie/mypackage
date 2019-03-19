@@ -1,13 +1,13 @@
 # Sorting and recursion functions
 This library contains several sorting and recursion functions:
 
-Sorting:
+### Sorting:
 - merge_sort.py,
 - bubble_sort.py,
 - quick_sort.py,
 - linear_merge.py,
 
-Recursion:
+### Recursion:
 - factorial.py,
 - fibonacci.py,
 - sum_array.py,
